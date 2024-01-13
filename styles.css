@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #141414;
+    padding: 20px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav li a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.nav li a:hover {
+    color: #FFF;
+}
+
+.brand {
+    color: #FFF;
+    font-weight: bold;
+}
